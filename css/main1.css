@@ -1,0 +1,74 @@
+/*********************************
+*     Style para Header y Nav    *        *                                *
+**********************************/
+/* Selectores de:
+elemento, .clase, #id
+selector{propiedad: valor;}
+*/
+
+
+header{
+    text-align: center;   background:url("/imagen/codewithus.png");
+    background-size: cover;
+    color:white;
+}
+
+
+h1{
+	font-size:70px;
+}
+
+
+nav{
+    text-align: center;
+    background-color: black;
+    margin:-25px 0px 25px 0px;
+	
+}
+
+ul{
+	padding: 10px;
+	background: rgba(0,0,0,0.5);
+}
+li{
+    list-style: none; 
+    display: inline;
+    padding:0px 10px 0px 10px;
+}
+
+a {
+    color:white;
+}
+
+img{
+	margin: 10px 0px 0px 0px;
+	border: 7px solid white;
+	border-radius: 40px;
+	width: 15%;
+}
+
+/**************************
+	Section
+***************************/
+
+article{
+	max-width: 500px;
+	padding:20px;
+	margin: 0 auto;
+	text-align:justify;
+}
+
+
+/*************************
+ Responsive Design
+**************************/
+
+@media (max-width: 500px){
+	h1 {font-size:36px;}
+	
+	li{
+		display: block;
+		padding:5px;
+	}
+	
+}
